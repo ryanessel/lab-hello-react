@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navBar {
+  background-color: #282828;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.mainSplashBox {
+  background-color: #282828;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-left: 55px;
+  padding-bottom: 100px;
+}
+
+
+.mainSplashBox h1 {
+  margin:0;
+  padding: 0;
+
+
+}
+
+.ironLogo {
+  height: 65px;
+  margin-left: 45px;
+  margin-top:25px;
+}
+
+.menuBurger {
+  height: 65px;
+  margin-right: 45px;
+  margin-top:25px;
+}
+
+.splashMsg {
+  font-size: 37px;
+  width: 571px;
+  text-align: left;
+}
+
+.splashBtn {
+  background-color: white;
+  border: 1px solid white;
+  font-size: 40px;
+  padding: 20px;
+  font: arial;
+  border-radius: 4px;
+}
+
+.bigGreeting {
+  font-size: 75px;
+  width: 577px;
+  text-align: left;
+}
+
+.flexBoxImages {
+
+  display: flex;
+  justify-content: center;
+}
+
+.flexBoxImages div {
+margin: 60px;
+width: 175px;
+}
+
+.flexBoxImages h3, .flexBoxImages p  {
+  text-align: left;
+  margin-left: 20px;
+
+}
